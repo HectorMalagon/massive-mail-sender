@@ -1,0 +1,3 @@
+friendEmail1@gmail.com
+friendEmail2@gmail.com
+friendEmail@hotmail.com
