@@ -36,7 +36,6 @@ def sendMail():
     mailserver.ehlo()
     mailserver.login(sender, password)
     for mail in mails:
-        msg['To'] = mail
         mailserver.sendmail(sender,mail,msg.as_string())
 
     mailserver.quit()
